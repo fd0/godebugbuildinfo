@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	color.Green("test program for debug.BuildInfo")
+	color.Green("test program for debug.BuildInfo, version 1.0.1")
 
 	info, ok := debug.ReadBuildInfo()
 	if !ok {
